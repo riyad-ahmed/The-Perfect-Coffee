@@ -5,7 +5,7 @@ body{
 }
 
 .main-hero-secton{
-  background-image: url(/image/coffee_bg.jpg);
+  background-image: url(./image/coffee_bg.jpg);
 }
 
 .menu ul{
