@@ -4,6 +4,11 @@ body{
   box-sizing: border-box;
 }
 
+.header{
+  width: 80%;
+  margin: auto;
+}
+
 .main-hero-secton{
   background-image: url(./image/coffee_bg.jpg);
 }
@@ -15,6 +20,10 @@ body{
 
 .menu ul li {
   padding-right: 2rem;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: Oswald;
+  color: #e7a261;
 }
 .logo img{
   width: 100px;
