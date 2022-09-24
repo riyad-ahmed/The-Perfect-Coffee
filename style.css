@@ -3,6 +3,11 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-hero-secton{
+  background-image: url(/image/coffee_bg.jpg);
+}
+
 .menu ul{
   list-style: none;
   cursor: pointer;
@@ -10,4 +15,8 @@ body{
 
 .menu ul li {
   padding-right: 2rem;
+}
+.logo img{
+  width: 100px;
+  height: 100px;
 }
