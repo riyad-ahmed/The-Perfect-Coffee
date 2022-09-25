@@ -19,13 +19,44 @@ body{
 }
 
 .menu ul li {
-  padding-right: 2rem;
+  margin-right: 2rem;
   font-size: 23px;
   font-weight: 600;
   font-family: Oswald;
   color: #e7a261;
 }
+
+.m-style{
+  position: relative;
+  display: inline;
+  overflow: hidden;
+}
+
+.m-style::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+}
+
+.m-style:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
 .logo img{
   width: 100px;
   height: 100px;
+}
+
+.heading{
+  padding: 2rem 0 2rem 0;
 }
