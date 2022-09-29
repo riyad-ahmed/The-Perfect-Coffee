@@ -11,6 +11,13 @@ body{
 
 .main-hero-secton{
   background-image: url(./image/coffee_bg.jpg);
+  background-position: bottom;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  margin: auto;
 }
 
 .menu ul{
@@ -55,8 +62,33 @@ body{
 .logo img{
   width: 100px;
   height: 100px;
+  cursor: pointer;
 }
 
 .heading{
   padding: 2rem 0 2rem 0;
+}
+
+.button{
+  text-align: center;
+}
+
+.our-offer{
+  font-family: Oswald;
+  color: #e7a261;
+  line-height: 60px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  border-color: #e7a261;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 60px;
+  border-radius: 30px;
+  padding-right: 60px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.our-offer:hover{
+  color: black;
+  background-color: #e7a261;
+  transition: .2s
 }
