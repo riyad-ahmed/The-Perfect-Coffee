@@ -12,6 +12,7 @@ body{
 .main-hero-secton{
   background-image: url(./image/coffee_bg.jpg);
   background-position: bottom;
+  height: 1000px;
 }
 
 .sticky{
@@ -66,7 +67,7 @@ body{
 }
 
 .heading{
-  padding: 2rem 0 2rem 0;
+  padding: 10rem 0 2rem 0;
 }
 
 .button{
@@ -91,4 +92,9 @@ body{
   color: black;
   background-color: #e7a261;
   transition: .2s
+}
+
+.bottom-banar{
+  position: absolute;
+  bottom: -63px;
 }
