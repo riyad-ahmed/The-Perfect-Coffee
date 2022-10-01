@@ -5,8 +5,8 @@ body{
 }
 
 .header{
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  padding: 0px 7% 0px 10%;
 }
 
 .main-hero-secton{
@@ -18,7 +18,7 @@ body{
 .sticky{
   position: fixed;
   top: 0;
-  margin: auto;
+  left: 0;
 }
 
 .menu ul{
