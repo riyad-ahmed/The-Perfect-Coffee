@@ -13,6 +13,7 @@ body{
   background-image: url(./image/coffee_bg.jpg);
   background-position: bottom;
   height: 1000px;
+  background-attachment: fixed;
 }
 
 .sticky{
@@ -97,4 +98,18 @@ body{
 .bottom-banar{
   position: absolute;
   bottom: -63px;
+}
+
+.slide-up{
+  animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both
+}
+  
+@keyframes slide-up{
+
+  0%
+    {transform: translateY(100px);
+    opacity: .2;}
+  100%
+    {transform: translateY(0);
+    opacity: 1;}
 }
