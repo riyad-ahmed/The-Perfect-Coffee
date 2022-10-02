@@ -97,14 +97,14 @@ body{
 
 .bottom-banar{
   position: absolute;
-  bottom: -63px;
+  bottom: -65px;
 }
 
 .slide-up{
-  animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both
+  animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1)
 }
   
-@keyframes slide-up{
+@keyframes slide-up {
 
   0%
     {transform: translateY(100px);
@@ -112,4 +112,21 @@ body{
   100%
     {transform: translateY(0);
     opacity: 1;}
+}
+
+.philo-up-line{
+  z-index: 3;
+  background-color: rgb(230, 176, 141);
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  width: 80px;
+  height: 3px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transform: translate(0px, 0px);
+  visibility: visible;
 }
