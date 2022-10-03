@@ -123,10 +123,27 @@ body{
   height: 3px;
   min-height: 0px;
   min-width: 0px;
-  max-height: none;
-  max-width: none;
   transform-origin: 50% 50%;
   opacity: 1;
   transform: translate(0px, 0px);
   visibility: visible;
+}
+
+.philosophy h1{
+  font-family: Oswald;
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.philosophy p{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.philosophy{
+  width: 40%;
+  margin: auto;
 }
