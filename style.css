@@ -7,13 +7,25 @@ body{
 .header{
   width: 100%;
   padding: 0px 7% 0px 10%;
+  z-index: 1111111111111111111111;
 }
 
 .main-hero-secton{
   background-image: url(./image/coffee_bg.jpg);
+  background-position: 0 0;
   background-position: bottom;
-  height: 1000px;
+  height: 100%;
   background-attachment: fixed;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+.hero-content{
+  padding-bottom: 19rem;
+  /* respon */
 }
 
 .sticky{
@@ -97,7 +109,8 @@ body{
 
 .bottom-banar{
   position: absolute;
-  bottom: -65px;
+  bottom: 0;
+  z-index: -1;
 }
 
 .slide-up{
