@@ -4,6 +4,10 @@ body{
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .header{
   width: 100%;
   padding: 0px 7% 0px 10%;
@@ -159,4 +163,17 @@ body{
 .philosophy{
   width: 40%;
   margin: auto;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translate(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
