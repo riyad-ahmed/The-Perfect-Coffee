@@ -172,6 +172,13 @@ html{
   transition: all 1s;
 }
 
+.tast{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translate(100%);
+  transition: all 1s;
+}
+
 .show {
   opacity: 1;
   filter: blur(0);
@@ -193,5 +200,7 @@ html{
 .image-3{
   position: absolute;
   top: 22rem;
-  left: 33.5%;
+  left: 50%;
+  transform: translateX(-50%);
+
 }
