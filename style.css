@@ -191,11 +191,22 @@ html{
   margin: auto;
 }
 
-.bg-style .coffee_pic1{
-  width: 400px;
-  height: 400px;
+.coffee_pic1{
+  width: 380px;
+  height: 380px;
   border-radius: 200px;
   margin: 0px 25px 0px 25px;
+  opacity: .9;
+}
+
+.hover{
+  width: 420px;
+}
+
+.hover:hover img{
+transform: scale(1.1);
+opacity: 1;
+transition: transform 1s;
 }
 
 .image-3{
@@ -203,7 +214,7 @@ html{
   top: 22rem;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 25px;
+  margin-top: 15px;
 
 }
 
