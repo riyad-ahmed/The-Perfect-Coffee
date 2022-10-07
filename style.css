@@ -203,11 +203,17 @@ html{
   width: 420px;
 }
 
-.hover:hover img{
+.position-relative:hover .hover{
+  transform: scale(1.1);
+  opacity: 1;
+  transition: transform 1s;
+}
+
+/* .hover:hover img{
 transform: scale(1.1);
 opacity: 1;
 transition: transform 1s;
-}
+} */
 
 .image-3{
   position: absolute;
