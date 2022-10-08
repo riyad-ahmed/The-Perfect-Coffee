@@ -204,29 +204,32 @@ html{
   width: 420px;
 }
 
+.bg-style{
+  cursor: pointer;
+}
+
 .position-relative:hover .hover{
   transform: scale(1.1);
   opacity: 1;
   transition: transform 1s;
 }
 
-/* .image-3{
-  position: absolute;
-  top: 22rem;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 15px;
-} */
-
 .coffee_leaf{
   width: 75px;
   height: 75px;
 }
 .coffee_leaf-content{
-  text-align: center;
   line-height: 50px;
   letter-spacing: 0px;
   font-weight: 400;
   font-size: 40px;
   color: #fff;
+}
+
+.our-menu p{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
