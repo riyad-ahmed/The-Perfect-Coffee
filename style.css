@@ -243,6 +243,8 @@ h1{
 
 .product-pricing-coffee{
   margin: 0 1rem;
+  /* width: 20rem; */
+  width: 20%;
 }
 
 .product-pricing-coffee .icon_coffee img{
