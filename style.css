@@ -261,9 +261,14 @@ h1{
   font-size: 20px;
 }
 
-.slideUp{
+.slideup{
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(100%);
+  transform: translateY(100%);
   transition: all 1s;
+}
+.Dshow {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }
