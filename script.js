@@ -16,3 +16,6 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 const tastElements = document.querySelectorAll('.tast');
 tastElements.forEach((el) => observer.observe(el));
+
+const tasslideupElements = document.querySelectorAll('.slideup');
+slideupElements.forEach((el) => observer.observe(el));
