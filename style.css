@@ -17,11 +17,12 @@ h1{
   z-index: 1111111111111111111111;
 }
 
-.parallax-window{
-  background-image: url(./image/coffee_bg.jpg);
-  background-position: 0 0;
+.main-hero-secton{
+  background-image: url(./image/coffee_bg.jpg) !important;
+  /* background-position: 0 0; */
   background-position: bottom;
-  min-height: 1000px;
+  min-height: 100%;
+  width: 100%;
   background: transparent;
   background-attachment: fixed;
   position: relative;
