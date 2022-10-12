@@ -30,6 +30,20 @@ h1{
 
 }
 
+.cup-image img{
+  position: absolute;
+  bottom: 4rem;
+  left: 20rem;
+  z-index: 1;
+}
+
+.smoke-shadow img{
+  position: absolute;
+  bottom: 24rem;
+  left: 22rem;
+  z-index: 2;
+}
+
 
 .hero-content{
   padding-bottom: 19rem;
