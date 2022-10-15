@@ -27,7 +27,6 @@ h1{
   top: 0;
   left: 0;
   z-index: 1;
-
 }
 
 .cup-image img{
@@ -80,7 +79,7 @@ h1{
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 3px;
   bottom: 0;
   left: 0;
   background-color: #e7a261;
