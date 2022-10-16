@@ -37,3 +37,13 @@ tastElements.forEach((el) => observer.observe(el));
 
 const slideupElements = document.querySelectorAll('.slideup');
 slideupElements.forEach((el) => observer.observe(el));
+
+const parallax2 = document.getElementById
+("parallax2");
+
+window.addEventListener("scroll", function ()
+{
+  let offset = window.pageYOffset;
+  parallax2.style.backgroundPositionY = offset
+  * -.5 + "px"
+})
