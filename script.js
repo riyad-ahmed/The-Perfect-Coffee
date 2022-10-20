@@ -1,13 +1,16 @@
+// parallax............
+
 const parallax = document.getElementById
 ("parallax");
 
 window.addEventListener("scroll", function ()
 {
   let offset = window.pageYOffset;
-  parallax.style.backgroundPositionY = (offset+600)
-  * -.5 + "px"
+  parallax.style.backgroundPositionY = (offset)
+  * -.7 + "px"
 })
 
+// Animation............
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -41,9 +44,9 @@ slideupElements.forEach((el) => observer.observe(el));
 const parallax2 = document.getElementById
 ("parallax2");
 
-// window.addEventListener("scroll", function ()
-// {
-//   let offset = window.pageYOffset;
-//   parallax2.style.backgroundPositionY = (offset-5604)
-//   * -.3 + "px"
-// })
+window.addEventListener("scroll", function ()
+{
+  let offset = window.pageYOffset;
+  parallax2.style.backgroundPositionY = (offset)
+  * -.3 + "px"
+})

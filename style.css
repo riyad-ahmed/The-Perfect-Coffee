@@ -321,6 +321,7 @@ h1{
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: content-box;
+  offset-position: top;
 }
 
 .Croissants_contant{
