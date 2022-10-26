@@ -1,12 +1,22 @@
 // parallax............
 
-const parallax = document.getElementById
-  ("parallax");
+// const parallax = document.getElementById
+//   ("parallax");
+
+// window.addEventListener("scroll", function () {
+//   let offset = window.pageYOffset;
+//   parallax.style.backgroundPositionY = (offset)
+//     * -.7 + "px"
+// })
 
 window.addEventListener("scroll", function () {
   let offset = window.pageYOffset;
-  parallax.style.backgroundPositionY = (offset)
-    * -.7 + "px"
+  let parallaxDiv = document.getElementById('parallax');
+  var distanceToTop = parallaxDiv.getBoundingClientRect().top;
+
+
+  parallax.style.backgroundPositionY = (distanceToTop)* .4 +"px";
+  console.log(distanceToTop)
 })
 
 // Animation............
@@ -50,8 +60,6 @@ window.addEventListener("scroll", function () {
   var distanceToTop = parallaxDiv.getBoundingClientRect().top;
 
 
-  parallaxTwo.style.backgroundPositionY = (distanceToTop)*.5+"px";
+  parallaxTwo.style.backgroundPositionY = (distanceToTop)*.4+"px";
   console.log(distanceToTop)
 })
-
-// document.getElementById("parallax2").style.transform = "translate(0, 200px)";

@@ -13,7 +13,7 @@ h1{
 
 .header{
   width: 100%;
-  padding: 0px 7% 0px 10%;
+  padding: 0px 14% 0px 14%;
   z-index: 1111111111111111111111;
 }
 
@@ -306,13 +306,9 @@ h1{
   height: 100%;
 }
 
-.Croissants_wrap{
-  position: relative;
-}
-
 .Croissants{
   background-image: url(./image/cafe_bg2.jpg);
-  position: absolute;
+  /* position: absolute;
   left: 0;
   top: 0;
   width: 100%;
@@ -320,18 +316,39 @@ h1{
   background-position-x: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-origin: content-box;
+  background-origin: content-box; */
 }
 
 .Croissants_contant{
   position: absolute;
-  bottom: 30rem;
+  bottom: 24rem;
   left: 50%;
-  transform: translateX(50%);
+  transform: translateX(-7%);
 }
 
 .Croissants_contant h1{
   font-weight: 300;
   color: #fff;
-  font-size: 90px;
+  font-size: 80px;
+}
+.Croissants_contant p{
+  font-weight: 400;
+  color: #fff;
+  font-size: 23px;
+  padding-top: 35px;
+}
+.overlay-content{
+  top: 24%;
+  left: 19%;
+}
+.overlay-content h1{
+  font-weight: 300;
+  color: #fff;
+  font-size: 80px;
+}
+.overlay-content p{
+  font-weight: 400;
+  color: #fff;
+  font-size: 23px;
+  padding-top: 35px;
 }
