@@ -13,13 +13,12 @@ window.addEventListener("scroll", function () {
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry)
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-    }
-    else {
-      entry.target.classList.remove('show');
-    }
+    // if (entry.isIntersecting) {
+    //   entry.target.classList.add('show');
+    // }
+    // else {
+    //   entry.target.classList.remove('show');
+    // }
 
 
     if (entry.isIntersecting) {
@@ -40,13 +39,19 @@ tastElements.forEach((el) => observer.observe(el));
 const slideupElements = document.querySelectorAll('.slideup');
 slideupElements.forEach((el) => observer.observe(el));
 
-// const parallax2 = document.getElementById
-//   ("parallax2");
+// var scrollTop  = $(window).scrollTop();
 
-// window.addEventListener("scroll", function () {
-//   let offset = window.pageYOffset;
-//   parallax2.style.backgroundPositionY = (offset -100)
-//     * -.1 + "px"
-// })
 
-document.getElementById("parallax2").style.transform = "translate(0, 200px)";
+
+
+window.addEventListener("scroll", function () {
+  let offset = window.pageYOffset;
+  let parallaxDiv = document.getElementById('parallaxTwo');
+  var distanceToTop = parallaxDiv.getBoundingClientRect().top;
+
+
+  parallaxTwo.style.backgroundPositionY = (distanceToTop)*.5+"px";
+  console.log(distanceToTop)
+})
+
+// document.getElementById("parallax2").style.transform = "translate(0, 200px)";
