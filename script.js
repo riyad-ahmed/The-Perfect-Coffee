@@ -60,6 +60,6 @@ window.addEventListener("scroll", function () {
   var distanceToTop = parallaxDiv.getBoundingClientRect().top;
 
 
-  parallaxTwo.style.backgroundPositionY = (distanceToTop)*.4+"px";
+  parallaxTwo.style.backgroundPositionY = (distanceToTop)*.3+"px";
   console.log(distanceToTop)
 })
