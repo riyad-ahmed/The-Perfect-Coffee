@@ -63,3 +63,15 @@ window.addEventListener("scroll", function () {
   parallaxTwo.style.backgroundPositionY = (distanceToTop)*.3+"px";
   console.log(distanceToTop)
 })
+
+
+window.addEventListener("scroll", function () {
+  let offset = window.pageYOffset;
+  let parallaxDiv = document.getElementById('parallaxThree');
+  var distanceToTop = parallaxDiv.getBoundingClientRect().top;
+
+
+  parallaxThree.style.backgroundPositionY = (distanceToTop)*.3+"px";
+  console.log(distanceToTop)
+})
+

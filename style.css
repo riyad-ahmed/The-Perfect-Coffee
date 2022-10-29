@@ -361,4 +361,14 @@ h1{
   background-image: url(./image/cafe_bg3.jpg);
   width: 100%;
   height: 100%;
+  background-attachment: fixed;
+}
+
+.coffee-shop-contant img{
+  width: 100px;
+  height: 100px;
+}
+.logo-with img{
+  width: 100px;
+  height: 100px;
 }
