@@ -375,6 +375,12 @@ h1{
 
 .coffee-shop-contant{
   padding: 17rem 0 14rem 0;
-  width: 30%;
+  width: 26%;
   margin: auto;
+}
+
+.icon-wrap{
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
