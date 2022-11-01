@@ -30,19 +30,60 @@ h1{
   z-index: 1;
 }
 
-.cup-image img{
+
+
+.smoke-shadow{
+  position: absolute;
+  top: -55%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cup_lear{
   position: absolute;
   bottom: 4rem;
   left: 20rem;
   z-index: 1;
 }
 
-.smoke-shadow img{
-  position: absolute;
-  bottom: 24rem;
-  left: 22rem;
-  z-index: 2;
+.smoke{
+  filter: blur(5px);
+  transform-origin: 50% 50%;
 }
+
+.smoke{
+  animation: smoke1 3s linear infinite;
+}
+
+@keyframes smoke1 {
+  0%{
+    filter: blur(0px);
+    transform: translateY(0px) scale(-1, 1);
+    opacity: 0;
+  }
+  25%{
+    filter: blur(3px);
+    transform: translateY(-10px) scale(-1, 1.05);
+    opacity: 0.5;
+  }
+  50%{
+    filter: blur(5px);
+    transform: translateY(-20 px) scale(-1, 1.1);
+    opacity: 1;
+  }
+  75%{
+    filter: blur(5px);
+    transform: translateY(-30px) scale(-1, 1.15);
+    opacity: 0.5;
+  }
+  100%{
+    filter: blur(7px);
+    transform: translateY(-40px) scale(-1, 1.2);
+    opacity: 0;
+  }
+}
+
+
 
 
 .hero-content{
@@ -400,9 +441,6 @@ h1{
   }
   .hero-content p {
     font-size: 20px;
-  }
-  .cup-image img{
-    left: 0rem;
   }
 
 }
