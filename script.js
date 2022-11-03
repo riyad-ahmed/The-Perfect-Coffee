@@ -75,3 +75,29 @@ window.addEventListener("scroll", function () {
   console.log(distanceToTop)
 })
 
+
+window.addEventListener("scroll", function () {
+  let offset = window.pageXOffset;
+  let parallaxDiv = document.getElementById('slide');
+  var W = parallaxDiv.getBoundingClientRect().top;
+  // var W = (window).scrollTop();
+
+  slide.style.translateX = (W)*.5 + "px";
+  
+  console.log(W)
+})
+
+
+
+
+// (window).scroll(function(){
+//   var w = parallaxDiv.getBoundingClientRect().top;
+//   var f = "translateX(" + w*3.75 + "px) translateY(" + w*.75 + "px)";
+//   ('.CroissantSide').css({
+//     transform: f
+//   })
+
+
+//   ('.CroissantSide').find('p').text("3. " + f);  
+         
+// });
