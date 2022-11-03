@@ -82,9 +82,8 @@ window.addEventListener("scroll", function () {
   var W = parallaxDiv.getBoundingClientRect().top;
   // var W = (window).scrollTop();
 
-  slide.style.translateX = (W)*.5 + "px";
-  
-  console.log(W)
+  slide.style. translateX = (W)*5 + "px";
+
 })
 
 
