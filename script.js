@@ -79,11 +79,12 @@ window.addEventListener("scroll", function () {
 window.addEventListener("scroll", function () {
   let offset = window.pageXOffset;
   let parallaxDiv = document.getElementById('slide');
-  var W = parallaxDiv.getBoundingClientRect().top;
-  // var W = (window).scrollTop();
+  var w = parallaxDiv.getBoundingClientRect().top;
+  // var w = (window).scrollTop();
+  
+  slide.style.webkitTransform += "translate(5px ,0)";
 
-  slide.style. translateX = (W)*5 + "px";
-
+  console.log(w);
 })
 
 

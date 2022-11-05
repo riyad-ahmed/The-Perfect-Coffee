@@ -454,20 +454,6 @@ h1{
   height: 383px;
 }
 
-/* .CroissantSide{
-  animation: cafe_croissant 2s;
-  animation-delay: 1s;
-}
-
-@keyframes cafe_croissant {
-  0% {
-    transform: translate3d(100px, 0px, 0px);
-  } 
-  100% {
-    transform: translate3d(200px, 0px, 0px);
-  } 
-} */
-
 .overlay-content h1{
   font-weight: 300;
   color: #fff;
