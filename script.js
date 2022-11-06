@@ -82,7 +82,7 @@ window.addEventListener("scroll", function () {
   var w = parallaxDiv.getBoundingClientRect().top;
   // var w = (window).scrollTop();
   
-  slide.style.webkitTransform += "translate(5px ,0)";
+  slide.style.webkitTransform += "translate w*(5px ,0)";
 
   console.log(w);
 })
