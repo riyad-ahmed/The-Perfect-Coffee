@@ -444,9 +444,30 @@ h1{
 }
 
 .cafe_croissant{
-  top: 447px;
-  right: 315px;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 550px;
+  right: -650px;
+  text-align: end;
 }
+
+.CroissantSide{
+  transform: translateX(0);
+  transition: 1s ease-in-out;
+}
+
+.lay{
+  transform: translateX(-1000px);
+  transition: .5s;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.73, 0.55, 0.09, 1.3);
+  transition-delay: .5s;
+  transition-property: all;
+  opacity: 1;
+
+}
+
 .cafe_croissant img{
   width: 700px;
   height: 383px;

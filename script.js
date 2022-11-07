@@ -16,7 +16,7 @@ window.addEventListener("scroll", function () {
 
 
   parallax.style.backgroundPositionY = (distanceToTop)* .4 +"px";
-  console.log(distanceToTop)
+  // console.log(distanceToTop)
 })
 
 // Animation............
@@ -49,6 +49,9 @@ tastElements.forEach((el) => observer.observe(el));
 const slideupElements = document.querySelectorAll('.slideup');
 slideupElements.forEach((el) => observer.observe(el));
 
+
+
+
 // var scrollTop  = $(window).scrollTop();
 
 
@@ -61,7 +64,7 @@ window.addEventListener("scroll", function () {
 
 
   parallaxTwo.style.backgroundPositionY = (distanceToTop)*.3+"px";
-  console.log(distanceToTop)
+  // console.log(distanceToTop)
 })
 
 
@@ -72,32 +75,56 @@ window.addEventListener("scroll", function () {
 
 
   parallaxThree.style.backgroundPositionY = (distanceToTop)*.3+"px";
-  console.log(distanceToTop)
+  // console.log(distanceToTop)
 })
 
 
-window.addEventListener("scroll", function () {
-  let offset = window.pageXOffset;
-  let parallaxDiv = document.getElementById('slide');
-  var w = parallaxDiv.getBoundingClientRect().top;
-  // var w = (window).scrollTop();
-  
-  slide.style.webkitTransform += "translate w*(5px ,0)";
-
-  console.log(w);
-})
-
-
-
-
-// (window).scroll(function(){
+// window.addEventListener("scroll", function () {
+//   let offset = window.pageXOffset;
+//   let parallaxDiv = document.getElementById('slide');
 //   var w = parallaxDiv.getBoundingClientRect().top;
-//   var f = "translateX(" + w*3.75 + "px) translateY(" + w*.75 + "px)";
-//   ('.CroissantSide').css({
-//     transform: f
-//   })
+  
+
+//     slide.style.webkitTransform = "translateX("+w*5+"px)"; 
+  
+
+//     // slide.style.opacity = w/100;
+ 
+//   // slide.style.webkitTransform = `translate(${w*10}px, 0)`
+
+//   console.log(w);
+// })
 
 
-//   ('.CroissantSide').find('p').text("3. " + f);  
-         
+window.addEventListener('scroll',()=>{
+  let content = document.querySelector('.CroissantSide');
+  let contentPosition = content.getBoundingClientRect().top;
+  let screenPosition = window.innerHeight/1.5;
+  if(contentPosition < screenPosition){
+    content.classList.add('lay');
+  }else{
+    content.classList.remove('lay');
+
+  }
+
+  if(contentPosition < 0){
+    content.classList.remove('lay');
+  }
+  console.log(contentPosition)
+})
+
+
+
+
+// const observers = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('slide');
+//     }
+//     else {
+//       entry.target.classList.remove('slide');
+//     }
+//   });
 // });
+// const CroissantSideElements = document.querySelectorAll('.CroissantSide');
+// CroissantSideElements.forEach((el) => observers.observe(el));
