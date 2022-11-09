@@ -19,9 +19,9 @@ h1{
 
 
 
-/* .menu{
+.menu{
   display: flex;
-} */
+}
 
 .main-hero-secton{
   background-image: url(./image/coffee_bg.jpg) !important;
@@ -417,15 +417,6 @@ h1{
 
 .Croissants{
   background-image: url(./image/cafe_bg2.jpg);
-  /* position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-  background-position-x: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-origin: content-box; */
 }
 
 .Croissants_contant{
@@ -574,11 +565,16 @@ h1{
   }
 }
 
+.checkbox{
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
-
-
+  .checkbox{
+    display: flex;
+  }
   .menu{
-    display: none;
+    display: flex;
   }
 
   .header .hamburger-lines .line1 {
