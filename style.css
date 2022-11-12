@@ -272,6 +272,11 @@ h1{
     opacity: 1;}
 }
 
+
+.menu-card{
+  padding-top: 15rem;
+}
+
 .philo-up-line{
   z-index: 3;
   background-color: rgb(230, 176, 141);
@@ -567,11 +572,32 @@ h1{
   .menu-btn{
     display: none;
   }
+  .about-responsive{
+    display: inline !important;
+  }
+  .about-coffee-tow{
+    padding-bottom: 2rem;
+  }
+  .menu-card{
+    padding-top: 8rem;
+  }
+  .philosophy h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .philosophy p{
+    font-size: 16px;
+  }
 
-
+}
+.about-responsive{
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
 
-
+  .header{
+    padding: 0 2% 0 2%;
+  }
 }
