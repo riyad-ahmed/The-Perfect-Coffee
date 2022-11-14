@@ -588,6 +588,9 @@ h1{
   .philosophy p{
     font-size: 16px;
   }
+  .our-menu p{
+    font-size: 20px;
+  }
 
 }
 .about-responsive{
@@ -599,5 +602,8 @@ h1{
 
   .header{
     padding: 0 2% 0 2%;
+  }
+  .our-menu p{
+    font-size: 18px;
   }
 }
