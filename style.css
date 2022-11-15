@@ -381,16 +381,17 @@ h1{
 
 .product-pricing{
   flex-direction: row;
+  justify-content: center;
 }
 
 .product-pricing-coffee{
   /* margin: 0 1rem; */
   /* width: 20rem; */
   width: 20%;
-  padding: 0;
+  padding: 20px;
 }
 .product-pricing-wrap{
-  width: 70%;
+  width: 65%;
   overflow: hidden;
   margin: auto;
 }
@@ -543,6 +544,9 @@ h1{
     left: 10rem;
     bottom: 2rem;
   }
+  .product-pricing-wrap{
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -561,6 +565,9 @@ h1{
   }
   .our-offer{
     font-size: 15px;
+  }
+  .product-pricing-wrap{
+    width: 90%;
   }
 
 }
