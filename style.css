@@ -387,6 +387,12 @@ h1{
   /* margin: 0 1rem; */
   /* width: 20rem; */
   width: 20%;
+  padding: 0;
+}
+.product-pricing-wrap{
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
 }
 
 .product-pricing-coffee .icon_coffee img{
