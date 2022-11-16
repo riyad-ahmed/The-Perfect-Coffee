@@ -160,7 +160,7 @@ h1{
 
 
 .hero-content{
-  padding-bottom: 23rem;
+  padding-bottom: 26rem;
 }
 
 .sticky{
@@ -603,6 +603,12 @@ h1{
   }
   .our-menu p{
     font-size: 20px;
+  }
+  .hero-content {
+    padding-bottom: 30rem;
+  }
+  .button {
+    bottom: 25rem;
   }
 
 }
