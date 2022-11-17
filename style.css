@@ -569,7 +569,14 @@ h1{
   .product-pricing-wrap{
     width: 90%;
   }
+  .menu ul li{
+    font-size: 20px;
+  }
 
+  .logo img {
+    width: 90px;
+    height: 90px;
+  }
 }
 @media only screen and (max-width: 800px) {
   .header{
@@ -610,6 +617,30 @@ h1{
   .button {
     bottom: 25rem;
   }
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  .menu ul li{
+    font-size: 18px;
+  }
+  .cup-image img{
+    width: 80%;
+    height: 80%;
+  }
+  .smoke-shadow{
+    left: 40%;
+    top: -48%;
+  }
+  .smoke{
+    width: 80% !important;
+  }
+  .smoke2{
+    width: 80% !important;
+  }
+  .smoke3{
+    width: 250px !important;
+  }
 
 }
 .about-responsive{
@@ -624,5 +655,17 @@ h1{
   }
   .our-menu p{
     font-size: 18px;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  .menu ul li{
+    font-size: 16px;
+  }
+  .our-offer{
+    line-height: 50px;
+    padding: 0 30px 0 30px;
+    font-size: 13px;
   }
 }
