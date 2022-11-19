@@ -555,9 +555,21 @@ h1{
   .overlay-content h1{
     font-size: 55px;
   }
+  .Croissants_contant h1{
+    font-size: 55px;
+  }
+  .overlay-content p{
+    font-size: 18px;
+  }
+  .Croissants_contant p{
+    font-size: 18px;
+  }
   .cafe_croissant img{
     width: 600px;
     height: 340px;
+  }
+  .cafe_croissant{
+    top: 440px;
   }
 }
 
@@ -589,9 +601,18 @@ h1{
     width: 90px;
     height: 90px;
   }
+  .cafe_croissant{
+    top: 370px;
+  }
   .cafe_croissant img{
-    width: 600px;
-    height: 340px;
+    width: 500px;
+    height: 290px;
+  }
+  .overlay-content{
+    left: 14rem;
+  }
+  .Croissants_contant{
+    bottom: 15rem;
   }
 }
 @media only screen and (max-width: 800px) {
