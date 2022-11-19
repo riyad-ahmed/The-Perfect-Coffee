@@ -555,6 +555,10 @@ h1{
   .overlay-content h1{
     font-size: 55px;
   }
+  .cafe_croissant img{
+    width: 600px;
+    height: 340px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -584,6 +588,10 @@ h1{
   .logo img {
     width: 90px;
     height: 90px;
+  }
+  .cafe_croissant img{
+    width: 600px;
+    height: 340px;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -648,6 +656,10 @@ h1{
   }
   .smoke3{
     width: 250px !important;
+  }
+  .cafe_croissant img{
+    width: 600px;
+    height: 340px;
   }
 
 }
