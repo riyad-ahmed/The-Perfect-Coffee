@@ -702,8 +702,17 @@ h1{
     width: 250px !important;
   }
   .cafe_croissant img{
-    width: 600px;
-    height: 340px;
+    width: 400px;
+    height: 240px;
+  }
+  .Croissants_contant {
+    bottom: 10rem;
+  }
+  .overlay-content{
+    left: 4rem;
+  }
+  .cafe_croissant{
+    top: 220px;
   }
 
 }
