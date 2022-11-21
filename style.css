@@ -637,6 +637,27 @@ h1{
   .cafe_croissant{
     top: 260px;
   }
+  .Location img {
+    width: 200px;
+    height: 200px;
+  }
+  .Location h1{
+    font-size: 60px;
+  }
+  .times img {
+    width: 200px;
+    height: 200px;
+  }
+  .times h1{
+    font-size: 60px;
+  }
+  .contact img {
+    width: 200px;
+    height: 200px;
+  }
+  .contact h1{
+    font-size: 60px;
+  }
 }
 @media only screen and (max-width: 800px) {
   .header{
