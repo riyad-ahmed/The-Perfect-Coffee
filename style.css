@@ -176,12 +176,13 @@ h1{
   cursor: pointer;
 }
 
-.menu ul li {
+.menu ul li a{
   margin-right: 2rem;
   font-size: 23px;
   font-weight: 600;
   font-family: Oswald;
   color: #e7a261;
+  text-decoration: none;
 }
 
 .m-style{
